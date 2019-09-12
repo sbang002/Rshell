@@ -1,0 +1,35 @@
+Script started on 2019-09-11 17:05:53-07:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="123" LINES="24"]
+sehoon@sehoon-VirtualBox: ~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell$ make
+rm -rf bin
+mkdir bin
+g++ -Wall -Werror -ansi -pedantic src/rshell.cpp -o bin/rshell
+sehoon@sehoon-VirtualBox: ~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell$ ./bin/rshell
+$ pwd
+/home/sehoon/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell
+$ ls
+8  bin	exit_test  Four_Demo.sh  LICENSE  Makefile  README.md  single_command.script  src  temp  tests
+$ ls -l
+total 72
+drwxr-xr-x 4 sehoon sehoon  4096 Sep 10 17:55 8
+drwxr-xr-x 2 sehoon sehoon  4096 Sep 11 17:05 bin
+-rwxr-xr-x 1 sehoon sehoon   256 Sep 11 16:28 exit_test
+-rwxr-xr-x 1 sehoon sehoon   215 Sep 10 18:12 Four_Demo.sh
+-rw-r--r-- 1 sehoon sehoon 34600 Nov 25  2015 LICENSE
+-rw-r--r-- 1 sehoon sehoon   254 Nov 25  2015 Makefile
+-rw-r--r-- 1 sehoon sehoon  1717 Nov 25  2015 README.md
+-rw-r--r-- 1 sehoon sehoon     0 Sep 11 17:05 single_command.script
+drwxr-xr-x 2 sehoon sehoon  4096 Sep 10 18:08 src
+-rwxr-xr-x 1 sehoon sehoon   285 Sep 11 16:42 temp
+drwxr-xr-x 2 sehoon sehoon  4096 Sep 11 17:05 tests
+$ ls -a
+.  ..  8  bin  exit_test  Four_Demo.sh	.git  LICENSE  Makefile  README.md  single_command.script  src	temp  tests
+$ a
+execve failed: No such file or directory
+free(): invalid pointer
+$ echo a
+a
+$ echo "a"
+a
+$ exit
+sehoon@sehoon-VirtualBox: ~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell$ exit
+Script done on 2019-09-11 17:06:45-07:00 [COMMAND_EXIT_CODE="1"]

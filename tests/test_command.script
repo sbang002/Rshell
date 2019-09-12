@@ -1,0 +1,39 @@
+Script started on 2019-09-11 17:15:54-07:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="123" LINES="24"]
+]0;sehoon@sehoon-VirtualBox: ~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell[01;32msehoon@sehoon-VirtualBox[00m:[01;34m~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell[00m$ 
+]0;sehoon@sehoon-VirtualBox: ~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell[01;32msehoon@sehoon-VirtualBox[00m:[01;34m~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell[00m$ make
+rm -rf bin
+mkdir bin
+g++ -Wall -Werror -ansi -pedantic src/rshell.cpp -o bin/rshell
+]0;sehoon@sehoon-VirtualBox: ~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell[01;32msehoon@sehoon-VirtualBox[00m:[01;34m~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell[00m$ ./bin/rshell 
+$ ls
+8  bin	exit_test  Four_Demo.sh  LICENSE  Makefile  README.md  src  temp  test_command.script  tests
+$ test a || ls
+8  bin	exit_test  Four_Demo.sh  LICENSE  Makefile  README.md  src  temp  test_command.script  tests
+$ test src || ls
+$ test -d isrc
+$ test -d src || ls
+$ test -d exit || ls
+8  bin	exit_test  Four_Demo.sh  LICENSE  Makefile  README.md  src  temp  test_command.script  tests
+$ test -f src || ls
+8  bin	exit_test  Four_Demo.sh  LICENSE  Makefile  README.md  src  temp  test_command.script  tests
+$ test -f exit || ls
+8  bin	exit_test  Four_Demo.sh  LICENSE  Makefile  README.md  src  temp  test_command.script  tests
+$ test -e exit || ls
+8  bin	exit_test  Four_Demo.sh  LICENSE  Makefile  README.md  src  temp  test_command.script  tests
+$ test -e x || ls
+8  bin	exit_test  Four_Demo.sh  LICENSE  Makefile  README.md  src  temp  test_command.script  tests
+$ ls && [exit] && echo 3
+8  bin	exit_test  Four_Demo.sh  LICENSE  Makefile  README.md  src  temp  test_command.script  tests
+$ [-f bin/r] && echo is file
+$ [-d src] && echo is directory
+is directory
+$ [-d src/rshell.cpp] && echo is directory
+$ [-e bin/rshell] && echo rshell exist
+rshell exist
+$ [-e bin/a] && a
+$ [exit] && exit
+$ exit
+]0;sehoon@sehoon-VirtualBox: ~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell[01;32msehoon@sehoon-VirtualBox[00m:[01;34m~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell[00m$ exit
+exit
+
+Script done on 2019-09-11 17:18:03-07:00 [COMMAND_EXIT_CODE="1"]

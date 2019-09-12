@@ -1,0 +1,33 @@
+Script started on 2019-09-11 16:43:20-07:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="123" LINES="24"]
+sehoon@sehoon-VirtualBox: ~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell$ 
+sehoon@sehoon-VirtualBox: ~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell$ make
+rm -rf bin
+mkdir bin
+g++ -Wall -Werror -ansi -pedantic src/rshell.cpp -o bin/rshell
+sehoon@sehoon-VirtualBox: ~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell$ bin/rshell 
+$ ls && exit
+8  bin	exit_test  Four_Demo.sh  LICENSE  Makefile  README.md  src  temp  tests  test.script
+sehoon@sehoon-VirtualBox: ~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell$ bin/rshell 
+$ a && exit
+execve failed: No such file or directory
+free(): invalid pointer
+$ exit && a
+sehoon@sehoon-VirtualBox: ~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell./rshell$ bin/rshell 
+$ ls && ls || exit
+8  bin	exit_test  Four_Demo.sh  LICENSE  Makefile  README.md  src  temp  tests  test.script
+8  bin	exit_test  Four_Demo.sh  LICENSE  Makefile  README.md  src  temp  tests  test.script
+$ ac  ls && a || exit
+8  bin	exit_test  Four_Demo.sh  LICENSE  Makefile  README.md  src  temp  tests  test.script
+execve failed: No such file or directory
+free(): invalid pointer
+sehoon@sehoon-VirtualBox: ~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell$ bin/rshell 
+$ ls || exit && a"
+8  bin	exit_test  Four_Demo.sh  LICENSE  Makefile  README.md  src  temp  tests  test.script
+execve failed: No such file or directory
+free(): invalid pointer
+$ ls || a && exit
+8  bin	exit_test  Four_Demo.sh  LICENSE  Makefile  README.md  src  temp  tests  test.script
+sehoon@sehoon-VirtualBox: ~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell
+exit
+
+Script done on 2019-09-11 16:45:00-07:00 [COMMAND_EXIT_CODE="1"]

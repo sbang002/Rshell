@@ -1,0 +1,25 @@
+Script started on 2019-09-10 18:14:29-07:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="197" LINES="55"]
+]0;sehoon@sehoon-VirtualBox: ~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell[01;32msehoon@sehoon-VirtualBox[00m:[01;34m~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell[00m$ make
+rm -rf bin
+mkdir bin
+g++ -Wall -Werror -ansi -pedantic src/rshell.cpp -o bin/rshell
+]0;sehoon@sehoon-VirtualBox: ~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell[01;32msehoon@sehoon-VirtualBox[00m:[01;34m~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell[00m$ ./bin/rshell 
+$ ls $ #comment
+8  bin	Four_Demo.sh  LICENSE  Makefile  README.md  src  tests
+$ pwd #comment
+/home/sehoon/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell
+$ #ls $ #ls
+$ #a #a
+$ a #a
+execve failed: No such file or directory
+free(): invalid pointer
+$               #ls
+$ ls    #ls 3 djslfd #LS
+8  bin	Four_Demo.sh  LICENSE  Makefile  README.md  src  tests
+$ # ls$ #lkjsdlkfjs
+8  bin	Four_Demo.sh  LICENSE  Makefile  README.md  src  tests
+$ exit
+]0;sehoon@sehoon-VirtualBox: ~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell[01;32msehoon@sehoon-VirtualBox[00m:[01;34m~/c9.io/cs012_assignment/home/workspace/cs100/RSHELL./rshell[00m$ exit
+exit
+
+Script done on 2019-09-10 18:16:02-07:00 [COMMAND_EXIT_CODE="1"]
